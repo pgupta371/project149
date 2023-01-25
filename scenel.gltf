@@ -1,0 +1,278 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        3.2746522426605225,
+        3.4368860721588135,
+        18.037668228149414
+      ],
+      "min": [
+        -3.274653673171997,
+        -3.436884641647339,
+        13.58607292175293
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 576,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        0.9184547066688538,
+        0.9085003137588501,
+        -0.3185262382030487
+      ],
+      "min": [
+        -0.9184548258781433,
+        -0.9085001945495605,
+        -0.33068349957466125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1152,
+      "componentType": 5126,
+      "count": 1848,
+      "max": [
+        3.2746522426605225,
+        3.4368860721588135,
+        22.1757869720459
+      ],
+      "min": [
+        -3.274653673171997,
+        -3.436884641647339,
+        -35.12982177734375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 23328,
+      "componentType": 5126,
+      "count": 1848,
+      "max": [
+        0.9689220190048218,
+        0.9854345917701721,
+        1.0
+      ],
+      "min": [
+        -0.9689223170280457,
+        -0.9854345321655273,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 288,
+      "componentType": 5125,
+      "count": 2796,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Eric Fan (https://sketchfab.com/ericfan1992)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/lampost-946870145c664b1bbd01e5bd733194bc",
+      "title": "Lampost"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11472,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 45504,
+      "byteOffset": 11472,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 56976,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "RootNode",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Lamppostglass__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Lampost__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "b95547a019dd4e72bd871963e69608b7.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.06474281847476959,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0547943971651476e-08,
+        -0.06474281847476873,
+        0.0,
+        0.0,
+        0.06474281847476873,
+        -1.0547943971651476e-08,
+        0.0,
+        3.0244038105010986,
+        2.314060688018799,
+        1.275824530466707e-07,
+        1.0
+      ],
+      "name": "Lamppostglass"
+    },
+    {
+      "mesh": 0,
+      "name": "Lamppostglass__0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.06474281847476959,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0547943971651476e-08,
+        -0.06474281847476873,
+        0.0,
+        0.0,
+        0.06474281847476873,
+        -1.0547943971651476e-08,
+        0.0,
+        3.0244038105010986,
+        2.314060688018799,
+        1.275824530466707e-07,
+        1.0
+      ],
+      "name": "Lampost"
+    },
+    {
+      "mesh": 1,
+      "name": "Lampost__0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
